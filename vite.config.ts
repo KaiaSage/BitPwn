@@ -8,6 +8,8 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
       '/src': resolve(__dirname, 'src'),
       react: resolve(__dirname, 'src', 'vendored', 'react.js'),
+      'source-map': resolve(__dirname, 'src', 'vendored', 'source-map.js'),
+      'moduleraid': resolve(__dirname, 'src', 'vendored', 'moduleraid-modern.js'),
       //     If you want to add a node_modules dependency, follow this template:
       // immutable: resolve(__dirname, 'src', 'vendored', 'name_of_library.js'),
       //     THEN RUN:
@@ -22,7 +24,7 @@ export default defineConfig({
   },
   viteburner: {
     watch: [
-      { pattern: 'src/**/*.{js,ts}', transform: true }, 
+      { pattern: 'src/**/*.{js,ts}', transform: true },
       { pattern: 'src/**/*.{script,txt}' },
       // This is optional, if you want a script that injects CSS stylesheets: stylesheets.ts
       {

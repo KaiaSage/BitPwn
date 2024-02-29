@@ -21,5 +21,5 @@
     },
     "jsx": "react" // Enable .JSX react files.
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx",  "src/**/*.js", "src/**/*.jsx", "NetscriptDefinitions.d.ts", "vite.config.ts", "vite.config.js"]
+  "include": ["src/**/*.ts", "src/**/*.tsx",  "src/**/*.js", "src/**/*.jsx", "NetscriptDefinitions.d.ts", "vite.config.ts", "vite.config.js", "scripts/**/*.js"]
 }
